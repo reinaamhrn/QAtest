@@ -39,7 +39,7 @@ src
     └── resources
         └── features
             └── bibit.feature
-```text
+```
 
 ---
 
