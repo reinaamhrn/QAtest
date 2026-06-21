@@ -1,8 +1,8 @@
 # Bibit Web Automation Testing
 
-Automation testing project untuk website Bibit menggunakan Selenium WebDriver, Cucumber, Java, dan Page Object Model (POM).
+An automation testing project for the Bibit website using Selenium WebDriver, Cucumber, Java, and the Page Object Model (POM) design pattern.
 
-Project ini mensimulasikan user journey dari login, pencarian produk investasi EMAS, hingga logout.
+This project simulates a complete user journey starting from login, searching for the EMAS investment product, and ending with logout.
 
 ---
 
@@ -19,6 +19,7 @@ Project ini mensimulasikan user journey dari login, pencarian produk investasi E
 
 ## Project Structure
 
+```text
 src
 └── test
     ├── java
@@ -38,6 +39,7 @@ src
     └── resources
         └── features
             └── bibit.feature
+```text
 
 ---
 

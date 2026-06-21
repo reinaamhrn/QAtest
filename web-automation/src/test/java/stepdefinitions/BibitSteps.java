@@ -51,7 +51,7 @@ public class BibitSteps {
 
         LoginPage login = getLoginPage();
 
-        login.enterPhoneNumber("08995429902");
+        login.enterPhoneNumber("<REGISTERED_PHONE_NUMBER>");
         login.clickLoginButton();
 
         JOptionPane.showMessageDialog(
