@@ -52,7 +52,7 @@ public class CheckoutPage {
                 By.id("com.saucelabs.mydemoapp.android:id/paymentBtn")
         )).click();
 
-        // 🔥 WAIT PAGE READY
+        // Wait page ready
         wait.until(ExpectedConditions.visibilityOfElementLocated(
                 By.id("com.saucelabs.mydemoapp.android:id/cardNumberET")
         ));
@@ -85,7 +85,7 @@ public class CheckoutPage {
                 By.id("com.saucelabs.mydemoapp.android:id/paymentBtn")
         )).click();
 
-        // 🔥 WAIT PAGE Review your order
+        // Wait Page Review your order
         wait.until(ExpectedConditions.visibilityOfElementLocated(
                 By.id("com.saucelabs.mydemoapp.android:id/enterShippingAddressTV")
         ));

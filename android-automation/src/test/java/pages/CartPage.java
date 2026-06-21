@@ -24,7 +24,7 @@ public class CartPage {
                 By.id("com.saucelabs.mydemoapp.android:id/cartIV")
         )).click();
 
-        // wait cart page ready (optional but safer)
+        // wait cart page ready
         wait.until(ExpectedConditions.presenceOfElementLocated(
                 By.xpath("//android.widget.Button[contains(@content-desc,'checkout')]")
         ));

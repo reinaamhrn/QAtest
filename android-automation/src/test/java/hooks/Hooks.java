@@ -18,8 +18,6 @@ public class Hooks {
         DesiredCapabilities caps = new DesiredCapabilities();
 
         caps.setCapability("platformName", "Android");
-
-        // Appium 2 style caps (WAJIB pakai appium:)
         caps.setCapability("appium:automationName", "UiAutomator2");
         caps.setCapability("appium:deviceName", "emulator-5554");
         caps.setCapability("appium:udid", "emulator-5554");
