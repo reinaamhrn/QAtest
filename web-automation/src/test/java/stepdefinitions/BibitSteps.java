@@ -32,7 +32,7 @@ public class BibitSteps {
     }
 
     // =========================
-    // 🔥 LOGIN GATE (STABLE)
+    // LOGIN GATE (STABLE)
     // =========================
     private void ensureLogin() {
 
@@ -59,7 +59,7 @@ public class BibitSteps {
                 "Selesaikan OTP + PIN sampai dashboard, lalu klik OK"
         );
 
-        // 🔥 stabilisasi setelah login manual
+        // stabilisasi setelah login manual
         wait.until(driver ->
                 driver.getCurrentUrl().contains("app.bibit.id")
         );
@@ -70,7 +70,7 @@ public class BibitSteps {
 
         SessionState.isLoggedIn = true;
 
-        System.out.println("🚀 LOGIN SUCCESS");
+        System.out.println("LOGIN SUCCESS");
     }
 
     
