@@ -15,7 +15,7 @@ The automation simulates a real user flow in a mobile shopping application, incl
 - JUnit 4.13.2
 - Maven
 
----
+--- 
 
 ## Application Under Test
 
