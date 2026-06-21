@@ -22,6 +22,7 @@ Test scenarios are written in Gherkin format for readability.
 
 ## Project Structure
 
+```text
 src/test
 ├── java
 │   ├── apis
@@ -42,6 +43,7 @@ src/test
         ├── get-schema.json
         ├── post-schema.json
         └── posts-schema.json
+```
 
 ---
 
