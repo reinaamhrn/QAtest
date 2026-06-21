@@ -45,6 +45,6 @@ public class Hooks {
 
         DriverManager.setDriver(driver);
 
-        System.out.println("🚀 Appium Driver Started");
+        System.out.println("Appium Driver Started");
     }
 }
