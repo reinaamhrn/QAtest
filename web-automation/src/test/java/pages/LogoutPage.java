@@ -59,10 +59,8 @@ public class LogoutPage {
                 return;
             }
 
-            // trigger scroll via keyboard (lebih cocok untuk SPA)
             driver.switchTo().activeElement().sendKeys(org.openqa.selenium.Keys.PAGE_DOWN);
 
-            // fallback JS kecil
             js.executeScript("window.scrollBy(0, 200)");
 
             try {
